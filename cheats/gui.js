@@ -1,6 +1,6 @@
 
 
-(() => {
+javascript:(() => {
     const cheat = (async () => {
         if (String(Function.prototype.call).includes('native')) {
             let call = Function.prototype.call;
